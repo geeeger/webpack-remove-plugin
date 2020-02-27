@@ -3,7 +3,7 @@ const { RawSource } = require('webpack-sources');
 exports.WebpackRemovePlugin = class WebpackRemovePlugin {
     constructor(opts, ext) {
         this.opts = opts;
-        this.ext = ext;
+        this.ext = ext || [];
     }
 
     apply(compiler) {
