@@ -23,5 +23,8 @@
   "homepage": "https://github.com/geeeger/webpack-remove-plugin#readme",
   "peerDependencies": {
     "webpack-sources": "*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
